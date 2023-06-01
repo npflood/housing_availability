@@ -1,0 +1,30 @@
+#date_selector {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-items: center;
+  padding: 1em;
+  padding-bottom: 0em;
+}
+
+#date_selector div.button_group{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1;
+  min-width: 4em;
+  margin: 0em 2em;
+}
+
+
+#date_selector h1, h2, h3, h4, h5 {
+  margin-bottom: 0px !important;
+}
+
+/* #date_selector #today {
+  justify-self: flex-end;
+} */

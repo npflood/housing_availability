@@ -1,0 +1,77 @@
+table {
+  width: 100%;
+}
+
+table, th, td{
+  border-collapse: collapse;
+}
+
+table thead tr th {
+  /* This may not work in all browsers */
+  background-color: white;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
+table thead tr.day_header th {
+  top: 2em;
+}
+
+tr.calendar th {
+  border-left: 1px solid lightgrey;
+}
+
+tr.house_row {
+  border-top: 4px double darkgrey; 
+}
+
+tr.house_row th {
+  border-right: 1px solid lightgray;
+}
+
+tr.house_row th.color {
+  border-right: none;
+  min-width: 1em;
+  max-width: 1em;
+}
+
+tr.room_row {
+  border-bottom:1px solid lightgray;
+}
+
+tr.room_row td {
+  padding: 1em;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgray;
+}
+
+tr.room_row td {
+  max-width: 2em;
+  white-space: nowrap;
+}
+
+tr.month_header th{
+  height: 2em;
+}
+
+tr.day_header th {
+  border-right: 1px solid lightgray;
+}
+
+td.unreserved {
+  background-color: white;
+}
+
+td.error {
+  background-color: firebrick;
+  color: white;
+}
+
+td.Confirmed{
+  background-color: lightgreen;
+}
+
+td.Pending{
+  background-color: moccasin;
+}
